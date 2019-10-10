@@ -1,0 +1,18 @@
+jerseyClient:
+  timeout: 60 seconds
+  connectionTimeout: 30 seconds
+  connectionRequestTimeout: 60 seconds
+  validateAfterInactivityPeriod: 5 seconds
+  timeToLive: 1h
+  cookiesEnabled: false
+  maxConnections: 1024
+  maxConnectionsPerRoute: 1024
+  keepAlive: 30 seconds
+  retries: 0
+  userAgent: test-service (Apache Default HttpClient)
+  minThreads: 5
+  maxThreads: 50
+  workQueueSize: 4000
+  gzipEnabled: true
+  gzipEnabledForRequests: false
+  chunkedEncodingEnabled: false

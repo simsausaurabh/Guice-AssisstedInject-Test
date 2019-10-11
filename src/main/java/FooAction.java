@@ -1,4 +1,4 @@
-import javax.inject.Inject;
+import com.google.inject.Inject;
 
 public class FooAction {
 
@@ -6,7 +6,7 @@ public class FooAction {
     private FooFactory fooFactory;
 
     void doFoo() {
-        FooInterface foo = fooFactory.create("testing");
-        System.out.println(foo.getFooName());
+        Foo foo = fooFactory.create("testing");
+        System.out.println("chal gaya = " + foo.getFooName());
     }
 }

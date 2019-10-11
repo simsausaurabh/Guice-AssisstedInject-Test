@@ -9,6 +9,7 @@ public class Foo implements FooInterface {
         this.bar = bar;
     }
 
+    @Override
     public String getFooName() {
         return this.bar;
     }

@@ -1,3 +1,5 @@
+import com.google.inject.assistedinject.Assisted;
+
 public interface FooFactory {
-    public Foo create(String bar);
+    Foo create(@Assisted String bar);
 }
